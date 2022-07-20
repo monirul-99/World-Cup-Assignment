@@ -381,6 +381,134 @@ h5.blog-text-two {
     color: #161616;
 }
 
-/* -----------------------------------------
+/* ---------------------------------------
 Up Coming Match Timing CSS Area Ended Here 
---------------------------------------------*/
+------------------------------------------*/
+
+
+/* ---------------------------------
+Grouping Match CSS Area Started Here 
+------------------------------------*/
+
+.groups 
+{
+    width: 1030px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    margin-top: 150px;
+    margin-left: 695px;
+}
+
+.group
+{
+    width: 310px;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: rgb(50 50 93 / 25%) 0px 2px 5px -1px, rgb(0 0 0 / 30%) 0px 1px 3px -1px;
+    overflow: hidden;
+}
+
+.first-group 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7px;
+}
+
+h1.main-group-title 
+{
+    margin-left: 46px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2.group-title 
+{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+.customize-flag-1 
+{
+    margin-left: -6px;
+}
+
+.customize-flag-2 
+{
+    margin-left: -46px;
+}
+
+.customize-flag-3 
+{
+    margin-left: -42px;
+}
+
+/* -------------------------------
+Grouping Match CSS Area ended Here 
+----------------------------------*/
+
+/*--------------------------------
+Grouping Side bar CSS Here Started
+----------------------------------*/
+
+h5.upcaming-match-text-three 
+{
+    width: 251px;
+    height: 65px;
+    background: #ffffff;
+    text-align: center;
+    margin-top: -146px;
+    border-radius: 10px;
+    padding-top: 18px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+h5.all-group-text-three 
+{
+    width: 251px;
+    height: 65px;
+    background: #DD0000;
+    text-align: center;
+    margin-top: -146px;
+    border-radius: 10px;
+    padding-top: 18px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+h5.blog-text-three 
+{
+    width: 251px;
+    height: 65px;
+    background: white;
+    text-align: center;
+    margin-top: -146px;
+    border-radius: 10px;
+    padding-top: 18px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.a-color-three-2
+{
+    text-decoration: none;
+    color: #161616;
+}
+
+.a-color-three-1 
+{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/*------------------------------
+Grouping Side bar CSS Here Ended
+--------------------------------*/
