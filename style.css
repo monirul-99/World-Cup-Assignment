@@ -51,6 +51,11 @@ p.cover-p-text {
     line-height: 30px;
 }
 
+.cover-p-text-two
+{
+    display: none;
+}
+
 .btn
 {
         background-color: var(--background-color);
@@ -554,3 +559,142 @@ h5.blog-text-three
 /*------------------------------
 Grouping Side bar CSS Here Ended
 --------------------------------*/
+
+
+/*---------------------------------
+Tablet Responsive Code Started Here 
+-----------------------------------*/
+
+@media only screen and (min-width: 668px) and (max-width: 992px) {
+    .cover-area 
+    { 
+    width: 1400px;
+    margin-left: 80px;
+    margin-top: 80px;
+    }
+
+    .cover-p-text
+    {
+        display: none;
+    }
+
+    .cover-p-text-two
+    {
+    display: block;
+    color: #ffffff;
+    font-size: 25px;
+    line-height: 47px;
+    font-weight: 400;
+    margin-left: 110px;
+    margin-top: 10px;
+    margin-bottom: -15px;
+    }
+
+    .cover-img 
+    {
+        margin-right: -60px;
+    }
+
+    .cover-text 
+    {
+        margin-top: -47px;
+    }
+
+    .blogs 
+    {
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 104px;
+    padding-top: 60px;
+    }
+
+    .blog
+    {
+        width: 650px;
+        height: 750px;
+    }
+
+    button.transfer
+    {
+    width: 210px;
+    height: 60px;
+    font-size: 25px;
+    border: 2px solid black;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-top: 35px;
+    }
+
+    h2.blog-title 
+    {
+    font-size: 35px;
+    line-height: 45px;
+    margin-top: 30px;
+    }
+
+    .time,
+    .comment
+    {
+        font-size: 35px;
+    }
+
+    .blog:last-child{
+        display: none;
+    }
+
+    .blog-img > img
+    {
+    width: 652px;
+    height: 400px;
+    }
+
+    .match-list 
+    {
+    width: 1380px;
+    flex-direction: row;
+    background: none;
+    margin-top: -200px;
+    margin-left: -95px;
+    }
+
+    .upcaming-match-text,
+    .all-group-text 
+    {
+        border: 1px solid black;
+    }
+
+    .match-list > h5 
+    {
+    width: 396px;
+    height: 80px;
+    margin-left: 70px;
+    margin-right: 80px;
+    font-size: 30px;
+    line-height: 43px;
+    }
+
+    .match-list > h5 > a 
+    {
+        font-weight: 600;
+    }
+
+    .footer-area
+    {
+        width: 1560px;
+    }
+    
+    .footer-nav
+    {
+        width: 1500px;
+        flex-wrap: wrap;
+    }
+
+    .footer-nav > li > a
+    {
+    font-size: 38px;
+    line-height: 70px;
+    }
+}
+
+/*---------------------------------
+Tablet Responsive Code Ended Here 
+-----------------------------------*/
