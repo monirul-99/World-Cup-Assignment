@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Lato', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+}
+
+body
+{
+    /* height: 7000px; */
+}
+.cover-area
+{
+    width: 1550px;
+    height: 750px;
+    margin: auto;
+    margin-top: 60px;
+    background-color: #161616;
+    border-radius: 30px;
+}
+
+.text-img-cover
+{
+    display: flex;
+}
+
+h1.cover-title 
+{
+    font-size: 70px;
+    line-height: 110px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-left: 105px;
+    margin-top: 140px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+p.cover-p-text {
+    margin-top: 20px;
+    color: #ffffff;
+    margin-left: 105px;
+    line-height: 30px;
+}
+
+button.watch-live {
+    width: 187px;
+    height: 56px;
+    border-radius: 5px;
+    background: #DD0000;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    margin-left: 105px;
+    border: none;
+    margin-top: 60px;
+}
+
+.blog-main-content
+{
+    position: relative;
+}
+
+.cover-img > img {
+    width: 660px;
+    margin-top: 55px;
+    margin-right: 100px;
+}
+
+.blog {
+    width: 350px;
+    height: 390px;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    overflow: hidden;
+}
+
+.blog-img > img {
+    width: 350px;
+    height: 200px;
+}
+
+.blog-details {
+    margin-left: 20px;
+}
+
+button.transfer {
+    width: 100px;
+    height: 32px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    margin-top: 24px;
+}
+
+h2.blog-title {
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.blogs-icon {
+    display: flex;
+    margin-top: 20px;
+}
+
+.time {
+    margin-right: 40px;
+}
+
+span.hour {
+    margin-left: 10px;
+}
+
+span.cmt-num {
+    margin-left: 10px;
+}
+
+.blogs {
+    width: 1000px;
+    margin-left: 595px;
+    margin-top: 150px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.match-list {
+    position: absolute;
+    top: 0;
+    left: 180px;
+    border-radius: 10px;
+    width: 360px;
+    height: 350px;
+    background: #161616;
+}
+
+.a-color-1{
+    text-decoration: none;
+    color: #161616;
+}
+
+.a-color-2 {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+h5.upcaming-match-text {
+    color: #ffffff;
+    width: 251px;
+    height: 65px;
+    background: white;
+    text-align: center;
+    margin-top: -146px;
+    border-radius: 10px;
+    padding-top: 18px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+h5.all-group-text {
+    color: #ffffff;
+    width: 251px;
+    height: 65px;
+    background: white;
+    text-align: center;
+    margin-top: -146px;
+    border-radius: 10px;
+    padding-top: 18px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+h5.blog-text {
+    color: #ffffff;
+    width: 251px;
+    height: 65px;
+    background: #DD0000;
+    text-align: center;
+    margin-top: -146px;
+    border-radius: 10px;
+    padding-top: 18px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.match-list {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+}
+
+footer.footer-area {
+    height: 450px;
+    background: #161616;
+    margin-top: 130px;
+}
+
+h1.goal {
+    text-align: center;
+    color: #ffffff;
+    padding-top: 100px;
+    font-size: 40px;
+    line-height: 60px;
+    font-weight: 600;
+    margin-bottom: 70px;
+}
+
+hr {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.footer-nav > li {
+    list-style: none;
+}
+
+.footer-nav > li > a {
+    text-decoration: none;
+    margin-left: 63px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #B9B9B9;
+}
