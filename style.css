@@ -9,6 +9,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+:root{
+    --background-color: #DD0000;
+    --accent-color: #0af;
+}
 
 /* --------------------------
 Cover CSS Area Started Here 
@@ -47,18 +51,56 @@ p.cover-p-text {
     line-height: 30px;
 }
 
-button.watch-live {
-    width: 187px;
-    height: 56px;
-    border-radius: 5px;
-    background: #DD0000;
+.btn
+{
+        background-color: var(--background-color);
+        color: white;
+        padding: 1em 2em;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 23px;
+        margin-left: 105px;
+        border: none;
+        outline: none;
+        margin-top: 60px;
+        position: relative;
+        cursor: pointer;
+}
+
+.btn.btn-background-slide::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background-color: var(--accent-color);
+
+    transition: transform 300ms ease-in-out;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+
+.btn.btn-background-slide:hover::before,
+.btn.btn-background-slide:focus::before{
+    transform: scaleX(1);
+}
+
+.btn.btn-background-slide{
+    z-index: 1;
+}
+
+.btn.btn-background-slide:hover,
+.btn.btn-background-slide:focus {
     color: white;
+}
+
+
+i#chev-control 
+{
     font-size: 20px;
-    font-weight: 400;
-    line-height: 23px;
-    margin-left: 105px;
-    border: none;
-    margin-top: 60px;
+    padding-left: 9px;
 }
 
 .cover-img > img 
