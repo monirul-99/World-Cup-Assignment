@@ -189,6 +189,11 @@ span.cmt-num {
     margin-left: 10px;
 }
 
+.view-all
+{
+    display: none;
+}
+
 .match-list {
     position: absolute;
     top: 0;
@@ -269,7 +274,7 @@ Footer CSS Area Started Here
 ----------------------------*/
 
 footer.footer-area {
-    height: 450px;
+    height: 420px;
     background: #161616;
     margin-top: 130px;
 }
@@ -556,6 +561,42 @@ h5.blog-text-three
     color: #ffffff;
 }
 
+.social-link > p 
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background: white;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.social-link 
+{
+    display: flex;
+    justify-content: center;
+}
+
+.social-link > p > i 
+{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    margin-top: 9px;
+}
+
+#instagram
+{
+    color: #B4289E;
+}
+#facebook
+{
+    color: #1873EB;
+}
+#twitter
+{
+    color: #1C9CEA;
+}
 /*------------------------------
 Grouping Side bar CSS Here Ended
 --------------------------------*/
@@ -600,7 +641,8 @@ Tablet Responsive Code Started Here
         margin-top: -47px;
     }
 
-    .blogs 
+    .blogs,
+    .matches
     {
     grid-template-columns: repeat(2, 1fr);
     margin-left: 104px;
@@ -611,6 +653,28 @@ Tablet Responsive Code Started Here
     {
         width: 650px;
         height: 750px;
+    }
+
+    .match
+    {
+    width: 500px;
+    height: 300px;
+    margin-left: 100px;
+    }
+
+    .match-details
+    {
+        margin-top: 60px;
+    }
+
+    h5.all-group-text-two
+    {
+        border: 2px solid black;
+    }
+
+    h5.blog-text-two
+    {
+        border: 2px solid black;
     }
 
     button.transfer
@@ -638,6 +702,10 @@ Tablet Responsive Code Started Here
     }
 
     .blog:last-child{
+        display: none;
+    }
+
+    .match:last-child{
         display: none;
     }
 
@@ -677,6 +745,21 @@ Tablet Responsive Code Started Here
         font-weight: 600;
     }
 
+    .view-all
+    {
+        display: block;
+        width: 200px;
+        height: 70px;
+        background: #DD0000;
+        color: #ffffff;
+        font-size: 35px;
+        line-height: 23px;
+        font-weight: 400;
+        border: none;
+        margin-top: 50px;
+        border-radius: 5px;
+        margin-left: 675px;
+    }
     .footer-area
     {
         width: 1560px;
@@ -693,7 +776,29 @@ Tablet Responsive Code Started Here
     font-size: 38px;
     line-height: 70px;
     }
-}
+
+    .social-link
+    {
+    padding-bottom: 90px;
+    background: #161616;
+    margin-top: -25px;
+    padding-top: 30px;
+    }
+
+    .social-link > p
+    {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    }
+
+    .social-link > p > i
+    {
+    margin-top: 11px;
+    font-size: 40px;
+    }
+
+    }
 
 /*---------------------------------
 Tablet Responsive Code Ended Here 
