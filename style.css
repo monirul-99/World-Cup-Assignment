@@ -43,6 +43,11 @@ h1.cover-title
     font-family: 'Poppins', sans-serif;
 }
 
+.cover-title-only-use-mobile
+{
+    display: none;
+}
+
 
 p.cover-p-text {
     margin-top: 20px;
@@ -106,6 +111,11 @@ i#chev-control
 {
     font-size: 20px;
     padding-left: 9px;
+}
+
+.chev-extra
+{
+    display: none;
 }
 
 .cover-img > img 
@@ -274,7 +284,7 @@ Footer CSS Area Started Here
 ----------------------------*/
 
 footer.footer-area {
-    height: 420px;
+    /* height: 420px; */
     background: #161616;
     margin-top: 130px;
 }
@@ -649,10 +659,42 @@ Tablet Responsive Code Started Here
     padding-top: 60px;
     }
 
+    .groups
+    {
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 10px;
+    padding-top: 60px;
+    }
+
     .blog
     {
         width: 650px;
         height: 750px;
+    }
+
+    .group
+    {
+    width: 600px;
+    height: 685px;
+    margin-left: 100px;
+    }
+
+    .group-img > img
+    {
+        width: 200px;
+    }
+
+    .main-group-title
+    {
+    font-size: 35px;
+    padding-left: 45px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    }
+
+    h2.group-title
+    {
+        font-size: 22px;
     }
 
     .match
@@ -706,6 +748,10 @@ Tablet Responsive Code Started Here
     }
 
     .match:last-child{
+        display: none;
+    }
+
+    .group:last-child{
         display: none;
     }
 
@@ -803,3 +849,367 @@ Tablet Responsive Code Started Here
 /*---------------------------------
 Tablet Responsive Code Ended Here 
 -----------------------------------*/
+
+
+@media only screen and (max-width: 668px) {
+
+    body
+    {
+        height: 100vh;
+    }
+
+    .cover-area
+    {
+        width: 1350px;
+        height: 1600px;
+        margin-left: 122px;
+        margin-top: 115px;
+        overflow: hidden;
+    }
+
+    h1.cover-title-only-use-mobile
+    {
+        display: block;
+        font-size: 85px;
+        color: white;
+        text-align: center;
+        margin-top: 170px;
+    }
+
+    .cover-p-text-two
+    {
+    margin-top: 35px;
+    display: block;
+    font-size: 40px;
+    color: white;
+    line-height: 100px;
+    font-weight: 400;
+    text-align: center;
+    }
+
+    .cover-img > img
+    {
+        width: 50%;
+        margin-left: 365px;
+        margin-top: 43px;
+    }
+
+    .text-img-cover
+    {
+        flex-direction: column;
+    }
+
+    .btn
+    {
+        width: 450px;
+        height: 140px;
+        margin-left: 455px;
+        font-size: 44px;
+        border-radius: 10px;
+    }
+
+    .chev-extra
+    {
+    color: white;
+    font-size: 40px;
+    margin-left: -87px;
+    position: absolute;
+    margin-top: 103px;
+    z-index: 1;
+    }
+
+
+    .match-list
+    {
+    position: absolute;
+    background: none;
+    margin-left: 405px;
+    margin-top: -1070px;
+    }
+
+    h5.upcaming-match-text
+    {
+    width: 750px;
+    height: 170px;
+    border: 2px solid black;
+    padding-top: 65px;
+    font-size: 60px;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-top: 15px;
+    }
+    h5.all-group-text
+    {
+    position: absolute;
+    width: 750px;
+    height: 170px;
+    border: 2px solid black;
+    padding-top: 67px;
+    font-size: 60px;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-top: 490px;
+    }
+    h5.blog-text
+    {
+    position: absolute;
+    margin-top: 965px;
+    width: 750px;
+    height: 170px;
+    padding-top: 67px;
+    font-size: 60px;
+    font-weight: 600;
+    border-radius: 10px;
+    }
+
+    .groups,
+    .matches,
+    .blogs
+    {
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 1000px;
+    }
+
+    .blog
+    {
+        width: 1374px;
+        height: 1370px;
+        margin-left: -487px;
+        border-radius: 30px;
+        margin-top: 35px;
+    }
+
+    .match
+    {
+    width: 1374px;
+    height: 770px;
+    margin-left: -487px;
+    padding-top: 45px;
+    border-radius: 30px;
+    margin-top: 35px;
+    border: 1px solid gray;
+    }
+
+    .group
+    {
+    width: 1290px;
+    height: 1650px;
+    margin-left: -487px;
+    padding-top: 45px;
+    border-radius: 30px;
+    margin-top: 35px;
+    border: 1px solid gray;
+    }
+
+    .main-group-title
+    {
+    font-size: 100px;
+    padding-left: 70px;
+    }
+
+    h2.group-title
+    {
+    font-size: 70px;
+    }
+
+    .first-group
+    {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+    }
+
+    .group-img > img
+    {
+        width: 430px;
+    }
+
+    .hidden
+    {
+    display: none;
+    }
+
+    #chev-control
+    {
+    display: none;
+    }
+
+    .social-link
+    {
+    display: none;
+    }
+
+    h1.cover-title
+    {
+    display: none;
+    }
+
+    .cover-p-text
+    {
+    display: none;
+    }
+
+    .blog-img > img
+    {
+    width: 1374px;
+    height: 750px;
+    }
+
+    .match-img > img 
+    {
+    width: 450px;
+    height: 250px;
+    }
+
+    .match-img > h2
+    {
+    font-size: 80px;
+    }
+
+    button.transfer
+    {
+    width: 360px;
+    height: 100px;
+    font-size: 50px;
+    border: 2px solid black;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-top: 70px;
+    }
+
+
+    h2.blog-title 
+    {
+    font-size: 70px;
+    line-height: 100px;
+    margin-top: 50px;
+    }
+
+    h2.match-title
+    {
+    font-size: 90px;
+    line-height: 100px;
+    margin-top: 100px;
+    }
+
+    .match-icon
+    {
+    margin-top: 60px;
+    font-size: 54px;
+    }
+
+    h5.upcaming-match-text-two
+    {
+    width: 750px;
+    height: 170px;
+    padding-top: 65px;
+    font-size: 60px;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-top: 15px;
+    }
+    h5.all-group-text-two
+    {
+    position: absolute;
+    width: 750px;
+    height: 170px;
+    border: 2px solid black;
+    padding-top: 67px;
+    font-size: 60px;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-top: 490px;
+    }
+    h5.blog-text-two
+    {
+    position: absolute;
+    margin-top: 965px;
+    border: 2px solid black;
+    width: 750px;
+    height: 170px;
+    padding-top: 67px;
+    font-size: 60px;
+    font-weight: 600;
+    border-radius: 10px;
+    }
+
+    .blogs-icon
+    {
+    margin-top: 30px;
+    }
+
+    .time,
+    .comment
+    {
+    font-size: 60px;
+    }
+
+    .time {
+    margin-right: 100px;
+    }
+
+    .footer-area
+    {
+    width: 1595px;
+    }
+
+    .footer-nav
+    {
+    flex-direction: column;
+    align-items: center;
+    background: #161616;
+    margin-bottom: 30px;
+    }
+
+    .footer-nav > li
+    {
+    margin-top: 100px;
+    margin-bottom: 20px;
+    }
+
+    .footer-nav > li > a
+    {
+    font-size: 50px;
+    }
+
+    h1.goal
+    {
+    font-size: 100px;
+    }
+
+    h5.upcaming-match-text-three
+    {
+    width: 750px;
+    height: 170px;
+    border: 2px solid black;
+    padding-top: 65px;
+    font-size: 60px;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-top: 15px;
+    }
+    h5.all-group-text-three
+    {
+    position: absolute;
+    width: 750px;
+    height: 170px;
+    padding-top: 67px;
+    font-size: 60px;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-top: 490px;
+    }
+    h5.blog-text-three
+    {
+    position: absolute;
+    margin-top: 965px;
+    width: 750px;
+    height: 170px;
+    padding-top: 67px;
+    font-size: 60px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: 2px solid black;
+    }
+
+    }
